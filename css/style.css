@@ -1,0 +1,61 @@
+
+/**********Top Navigation Section**********/
+.navigation {
+    /*LAYOUT DECLARATIONS*/
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    z-index: 9999;
+    /*STYLE DECLARATIONS*/
+    background-color: white;
+}
+
+.top-nav {
+    /*LAYOUT DECLARATIONS*/
+    text-align: center;
+}
+
+.links {
+    /*LAYOUT DECLARATIONS*/
+    padding: 0;
+    margin: 0 auto;
+}
+
+.logo {
+    /*LAYOUT DECLARATIONS*/
+    height: 3rem;
+    margin-top: .5rem;
+    /*STYLE DECLARATIONS*/
+    cursor: pointer;
+}
+
+.links li {
+    /*LAYOUT DECLARATIONS*/
+    list-style: none;
+    padding: .5rem;
+    display: inline;
+    /*STYLE DECLARATIONS*/
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #838994;
+    letter-spacing: .03rem;
+}
+
+a:link {
+    /*STYLE DECLARATIONS*/
+    text-decoration: none;
+}
+
+.top-nav .links li:hover {
+    /*STYLE DECLARATIONS*/
+    color: #4c5058;
+    cursor: pointer;
+}
+
+/**********Main Image Banner Section**********/
+/**********6 Reasons Yogis Prefer FlowMats Section**********/
+/**********Product Option Section**********/
+/**********Mission Section**********/
+
+/**********Footer Section**********/
