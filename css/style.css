@@ -6,13 +6,17 @@ a:hover {
 h1,
 h2,
 h3,
-h4,
 p {
     color: #005656;
 }
 
 h1 {
     padding: 2rem;
+    margin: 0;
+}
+
+p {
+    font-size: 2rem;
 }
 
 
@@ -48,25 +52,9 @@ h1 {
 
 /**********Main Image Banner Section**********/
 
-.jumbotron {
-    /*LAYOUT DECLARATIONS*/
-    background-image: url('../images/folded-teal-flow.jpg');
-    background-size: cover;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    /*STYLE DECLARATIONS*/
-    color: #005656;
-}
-
-.jumbotron >.container {
-    /*LAYOUT DECLARATIONS*/
-    padding-top: 9%;
-    padding-bottom: 16%;
-}
-
-.jumbotron > h1 {
-    /*LAYOUT DECLARATIONS*/
-    padding: 0;
+.hero-text {
+    margin-top: -30%;
+    margin-bottom: 20%;
 }
 
 
@@ -85,7 +73,7 @@ h1 {
 
 .col-md-6 {
     /*LAYOUT DECLARATIONS*/
-    padding: 0 2.5% 2.5% 2.5%;
+    padding: 2.5%;
 }
 
 
@@ -116,9 +104,11 @@ h1 {
 }
 
 .footer > p:last-child {
+    /*LAYOUT DECLARATIONS*/
+    padding-bottom: 2rem;
     /*STYLE DECLARATIONS*/
     color: gray;
-    font-size: .8rem;
+    font-size: 1.2rem;
 }
 
 .footer a {
