@@ -1,4 +1,9 @@
 
+*,
+a:hover {
+    text-decoration: none;
+}
+
 /**********Top Navigation Section**********/
 .navbar,
 .navbar-default,
@@ -22,10 +27,13 @@
     /*LAYOUT DECLARATIONS*/
     display: inline-block;
     padding: 1rem 1rem 0 1rem;
+    /*STYLE DECLARATIONS*/
+    color: #838994;
 }
 
-
-
+.navbar-link:hover {
+    color: #4c5058;
+}
 
 /**********Main Image Banner Section**********/
 .jumbotron {
