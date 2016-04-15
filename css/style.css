@@ -1,23 +1,24 @@
 *,
 a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 h1,
 h2,
 h3,
 p {
-    color: #005656;
+	color: #005656;
 }
 
 h1 {
-    padding: 2rem;
-    margin: 0;
+	padding: 2rem;
+	margin: 0;
 }
 
 p {
-    font-size: 2rem;
+	font-size: 2rem;
 }
+
 
 
 /**********Top Navigation Section**********/
@@ -26,97 +27,99 @@ p {
 .navbar-default,
 .navbar-fixed-top,
 .navbar-header {
-    /*STYLE DECLARATIONS*/
-    background-color: white;
+	/*STYLE DECLARATIONS*/
+	background-color: white;
 }
 
 .navbar-header {
-    /*LAYOUT DECLARATIONS*/
-    width: 100%;
+	/*LAYOUT DECLARATIONS*/
+	width: 100%;
 }
 
 .navbar-link {
-    /*LAYOUT DECLARATIONS*/
-    display: inline-block;
-    padding: 1rem 1rem 0 1rem;
-    /*STYLE DECLARATIONS*/
-    font-size: 2rem;
-    color: #838994;
+	/*LAYOUT DECLARATIONS*/
+	display: inline-block;
+	padding: 1rem 1rem 0 1rem;
+	/*STYLE DECLARATIONS*/
+	font-size: 2rem;
+	color: #838994;
 }
 
 .navbar-link:hover {
-    /*STYLE DECLARATIONS*/
-    color: #005656;
+	/*STYLE DECLARATIONS*/
+	color: #005656;
 }
 
 
 /**********Main Image Banner Section**********/
 
 .hero-text {
-    margin-top: -30%;
-    margin-bottom: 20%;
+	/*LAYOUT DECLARATIONS*/
+	margin-top: -30%;
+	margin-bottom: 20%;
 }
 
 
 /**********6 Reasons Yogis Prefer FlowMats Section**********/
-
+.col-md-4 {
+	/*LAYOUT DECLARATIONS*/
+	padding-bottom: 2rem;
+}
 
 /**********Product Option Section**********/
 
 .btn {
-    /*LAYOUT DECLARATIONS*/
-    margin: 1rem;
+	/*LAYOUT DECLARATIONS*/
+	margin: 1rem;
+
 }
 
 
 /**********Mission Section**********/
 
-.col-md-6 {
-    /*LAYOUT DECLARATIONS*/
-    padding: 2.5%;
-}
+
 
 
 /**********Footer Section**********/
 
 .footer p {
-    /*STYLE DECLARATIONS*/
-    color: white;
+	/*STYLE DECLARATIONS*/
+	color: white;
 }
 
 .footer ul {
-    /*LAYOUT DECLARATIONS*/
-    padding: 0;
+	/*LAYOUT DECLARATIONS*/
+	padding: 0;
 }
 
 .footer ul li {
-    /*LAYOUT DECLARATIONS*/
-    list-style: none;
-    display: inline-block;
+	/*LAYOUT DECLARATIONS*/
+	list-style: none;
+	display: inline-block;
 }
 
 .fa-facebook-official,
 .fa-instagram {
-    /*LAYOUT DECLARATIONS*/
-    padding: 10px;
-    /*STYLE DECLARATIONS*/
-    color: white;
+	/*LAYOUT DECLARATIONS*/
+	padding: 10px;
+	/*STYLE DECLARATIONS*/
+	color: white;
 }
 
 .footer > p:last-child {
-    /*LAYOUT DECLARATIONS*/
-    padding-bottom: 2rem;
-    /*STYLE DECLARATIONS*/
-    color: gray;
-    font-size: 1.2rem;
+	/*LAYOUT DECLARATIONS*/
+	padding-bottom: 2rem;
+	/*STYLE DECLARATIONS*/
+	color: gray;
+	font-size: 1.2rem;
 }
 
 .footer a {
-    /*STYLE DECLARATIONS*/
-    color: gray;
+	/*STYLE DECLARATIONS*/
+	color: gray;
 }
 
 .footer a:hover {
-    /*STYLE DECLARATIONS*/
-    color: black;
+	/*STYLE DECLARATIONS*/
+	color: black;
 }
