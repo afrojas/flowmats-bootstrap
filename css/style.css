@@ -12,6 +12,14 @@ p {
     color: #005656;
 }
 
+.container-fluid {
+    padding: 2rem;
+}
+
+h1 {
+    padding: 2rem;
+}
+
 /**********Top Navigation Section**********/
 .navbar,
 .navbar-default,
@@ -49,19 +57,36 @@ p {
 .jumbotron {
     /*LAYOUT DECLARATIONS*/
     background-image: url('../images/folded-teal-flow.jpg');
-    background-size: 100%;
     background-size: cover;
-    background-repeat: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
     /*STYLE DECLARATIONS*/
     color: #005656;
+}
+
+.jumbotron >.container {
+    /*LAYOUT DECLARATIONS*/
+    padding-top: 9%;
+    padding-bottom: 16%;
+
+}
+
+.jumbotron > h1 {
+    /*LAYOUT DECLARATIONS*/
+    padding: 0;
 }
 
 /**********6 Reasons Yogis Prefer FlowMats Section**********/
 /**********Product Option Section**********/
 .btn {
-    margin: 10px;
+    /*LAYOUT DECLARATIONS*/
+    margin: 1rem;
 }
 /**********Mission Section**********/
+.col-md-6 {
+    /*LAYOUT DECLARATIONS*/
+    padding: 0 2.5% 2.5% 2.5%;
+}
 
 /**********Footer Section**********/
 .footer p {
