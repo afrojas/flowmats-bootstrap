@@ -33,3 +33,26 @@
 /**********Mission Section**********/
 
 /**********Footer Section**********/
+.footer {
+    color: white;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.fa-facebook-official,
+.fa-instagram {
+    padding: 10px;
+    color: white;
+}
+
+.footer > p:last-child {
+    color: gray;
+    font-size: .8rem;
+}
