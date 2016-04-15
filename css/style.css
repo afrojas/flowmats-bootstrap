@@ -1,8 +1,32 @@
 
 /**********Top Navigation Section**********/
+.navbar,
+.navbar-default,
+.navbar-fixed-top,
+.navbar-header {
+    /*LAYOUT DECLARATIONS*/
+    width: 100%;
+    text-align: center;
+    /*STYLE DECLARATIONS*/
+    background-color: white;
+}
 
+.navbar-brand {
+    /*LAYOUT DECLARATIONS*/
+    padding: 0;
+}
 
 /**********Main Image Banner Section**********/
+.jumbotron {
+    /*LAYOUT DECLARATIONS*/
+    background-image: url('../images/folded-teal-flow.jpg');
+    background-size: cover;
+    height: 60rem;
+    /*STYLE DECLARATIONS*/
+    color: white;
+
+}
+
 
 /**********6 Reasons Yogis Prefer FlowMats Section**********/
 /**********Product Option Section**********/
