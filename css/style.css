@@ -34,11 +34,6 @@ h1 {
     width: 100%;
 }
 
-.logo {
-    /*LAYOUT DECLARATIONS*/
-    padding-top: 1rem;
-}
-
 .navbar-link {
     /*LAYOUT DECLARATIONS*/
     display: inline-block;
@@ -117,4 +112,14 @@ h1 {
     /*STYLE DECLARATIONS*/
     color: gray;
     font-size: .8rem;
+}
+
+.footer a {
+    /*STYLE DECLARATIONS*/
+    color: gray;
+}
+
+.footer a:hover {
+    /*STYLE DECLARATIONS*/
+    color: black;
 }
