@@ -1,6 +1,6 @@
 *,
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 h1,
@@ -9,92 +9,352 @@ h1 a:hover,
 h2,
 h3,
 p {
-	color: #005656;
+  color: #005656;
 }
 
 h1 {
-	padding: 2rem;
-	margin: 0;
+  padding: 2rem 0 3rem 0;
+  margin: 0;
 }
 
 p {
-	font-size: 2rem;
+  font-size: 2rem;
 }
+
+.row {
+  padding: 2rem 0;
+}
+
 
 /**********Top Navigation Section**********/
-.navbar,
-.navbar-default,
-.navbar-fixed-top,
-.navbar-header {
-	/*STYLE DECLARATIONS*/
-	background-color: white;
+
+
+/* Helps center the content of the navbar */
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
-.navbar-header {
-	/*LAYOUT DECLARATIONS*/
-	width: 100%;
+
+/* BS only floats left on non-small screens, causing it to collapse otherwise. This forces it to always stay un-collapsed */
+
+.navbar-nav > li {
+  float: left;
 }
 
-.navbar-link {
-	/*LAYOUT DECLARATIONS*/
-	display: inline-block;
-	padding: 1rem 1rem 0 1rem;
-	/*STYLE DECLARATIONS*/
-	font-size: 2rem;
-	color: #838994;
+.navbar {
+  margin-bottom: 0;
 }
 
-.navbar-link:hover {
-	/*STYLE DECLARATIONS*/
-	color: #005656;
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: white;
 }
+
+.nav > li > a {
+  font-size: 2rem;
+  padding: 1rem 1rem 0 1rem;
+  color: #838994;
+}
+
 
 /**********6 Reasons Yogis Prefer FlowMats Section**********/
-.col-md-4 {
-	/*LAYOUT DECLARATIONS*/
-	padding-bottom: 2rem;
+
+#six-reasons {
+  margin-top: 2rem;
 }
+
+#buy h3 {
+  margin-top: 1rem;
+}
+
+#nonprofit p {
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  #nonprofit p {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #nonprofit p {
+    padding: 0 4rem;
+  }
+}
+
+#nonprofit > div {
+  margin-bottom: 2rem;
+}
+
 
 /**********Product Option Section**********/
+
 .btn {
-	/*LAYOUT DECLARATIONS*/
-	margin: 2rem;
+  /*LAYOUT DECLARATIONS*/
+  margin: 2rem;
 }
+
 
 /**********Footer Section**********/
+
 .footer a,
 .footer p {
-	/*STYLE DECLARATIONS*/
-	color: white;
-}
-
-.footer ul {
-	/*LAYOUT DECLARATIONS*/
-	padding: 0;
-}
-
-.footer ul li {
-	/*LAYOUT DECLARATIONS*/
-	list-style: none;
-	display: inline-block;
+  /*STYLE DECLARATIONS*/
+  color: white;
 }
 
 .fa-facebook-official,
 .fa-instagram {
-	/*LAYOUT DECLARATIONS*/
-	padding: 10px;
-	/*STYLE DECLARATIONS*/
-	color: white;
+  /*LAYOUT DECLARATIONS*/
+  padding: 10px;
+  /*STYLE DECLARATIONS*/
+  color: white;
 }
 
 .attribution {
-	/*LAYOUT DECLARATIONS*/
-	padding-bottom: 2rem;
-	/*STYLE DECLARATIONS*/
-	font-size: 1.2rem;
+  /*LAYOUT DECLARATIONS*/
+  padding-bottom: 2rem;
+  /*STYLE DECLARATIONS*/
+  font-size: 1.2rem;
 }
 
 .attribution a:hover {
-	/*STYLE DECLARATIONS*/
-	color: gray;
+  /*STYLE DECLARATIONS*/
+  color: gray;
+}
+
+.row-equal-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-equal-height > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-text {
+  text-align: left;
+}
+
+@media (min-width: 1200px) {
+  .card-text {
+    text-align: center;
+  }
+}
+
+
+/* CARDS */
+
+.card {
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.card-block {
+  padding: 15px;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+
+.card-subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-link + .card-link {
+  margin-left: 15;
+}
+
+.card > .list-group:first-child .list-group-item:first-child {
+  border-radius: 4px 4px 0px 0px;
+}
+
+.card > .list-group:last-child .list-group-item:last-child {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-header {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-header:first-child {
+  border-radius: 3px 3px 0px 0px;
+}
+
+.card-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+}
+
+.card-footer:last-child {
+  border-radius: 0px 0px 3px 3px;
+}
+
+.card-primary {
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.card-success {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.card-info {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+
+.card-warning {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+
+.card-danger {
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
+
+.card-inverse .card-header,
+.card-inverse .card-footer {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card-inverse .card-header,
+.card-inverse .card-footer,
+.card-inverse .card-title,
+.card-inverse .card-blockquote {
+  color: #fff;
+}
+
+.card-inverse .card-link,
+.card-inverse .card-text,
+.card-inverse .card-blockquote > footer {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.card-inverse .card-link:hover,
+.card-inverse .card-link:focus {
+  color: #fff;
+}
+
+.card-blockquote {
+  padding: 0;
+  margin-bottom: 0;
+  border-left: 0;
+}
+
+.card-img {
+  border-radius: 4px;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+}
+
+.card-img-top {
+  border-radius: 4px 4px 0px 0px;
+}
+
+.card-img-bottom {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-deck {
+  display: table;
+  table-layout: fixed;
+  border-spacing: 15 0;
+}
+
+.card-deck .card {
+  display: table-cell;
+  width: 1%;
+  vertical-align: top;
+}
+
+.card-deck-wrapper {
+  margin-right: -15;
+  margin-left: -15;
+}
+
+.card-group {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.card-group .card {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.card-group .card + .card {
+  margin-left: 0;
+  border-left: 0;
+}
+
+.card-group .card:first-child .card-img-top {
+  border-top-right-radius: 0px;
+}
+
+.card-group .card:first-child .card-img-bottom {
+  border-bottom-right-radius: 0px;
+}
+
+.card-group .card:last-child .card-img-top {
+  border-top-left-radius: 0px;
+}
+
+.card-group .card:last-child .card-img-bottom {
+  border-bottom-left-radius: 0px;
+}
+
+.card-group .card:not(:first-child):not(:last-child) {
+  border-radius: 0px;
+}
+
+.card-group .card:not(:first-child):not(:last-child) .card-img-top,
+.card-group .card:not(:first-child):not(:last-child) .card-img-bottom {
+  border-radius: 0px;
+}
+
+.card-columns {
+  column-count: 3;
+  column-gap: 15;
+}
+
+.card-columns .card {
+  display: inline-block;
+  width: 100%;
 }
